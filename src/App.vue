@@ -2,7 +2,7 @@
   <b-container id="app">
     <b-row>
       <b-col>
-        <div class="table--continer">
+        <div class="a-table">
           <Table v-bind:records="records" />
         </div>
       </b-col>

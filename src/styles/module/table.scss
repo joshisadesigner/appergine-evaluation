@@ -1,0 +1,33 @@
+.a-table {
+  margin: 1rem;
+  overflow: scroll;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 1rem rgba(black, 0.1);
+
+  table {
+    margin-bottom: 0;
+  }
+
+  th {
+    border-top: none;
+  }
+
+  td,
+  th {
+    white-space: nowrap;
+  }
+
+  tr {
+    transition: all 0.256s ease-in-out;
+  }
+
+  tbody:hover tr {
+    opacity: 0.7;
+  }
+
+  tbody tr:hover {
+    opacity: 1;
+    background: #fbad4b;
+    color: #332411;
+  }
+}
