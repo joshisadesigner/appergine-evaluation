@@ -1,0 +1,226 @@
+[
+  {
+    "_links": {
+      "self": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/93514be2-b031-444a-af76-ecc2f2672d9e"
+      },
+      "delete": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/93514be2-b031-444a-af76-ecc2f2672d9e"
+      },
+      "update": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/93514be2-b031-444a-af76-ecc2f2672d9e"
+      }
+    },
+    "id": "93514be2-b031-444a-af76-ecc2f2672d9e",
+    "isbn": "231212",
+    "publicationDate": "2020-12-14T15:07:36.02Z",
+    "publisher": "Appergine",
+    "title": "Test 2",
+    "_meta": {
+      "creationDate": "2020-12-16T01:46:21.696Z",
+      "createdBy": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "username": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "roles": ["anonymous"],
+        "editable": false
+      },
+      "draft": { "statusKey": "PUBLISHED", "statusLabel": "Published" }
+    }
+  },
+  {
+    "_links": {
+      "self": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/603266db-676c-4879-af20-7fac64bf2abc"
+      },
+      "delete": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/603266db-676c-4879-af20-7fac64bf2abc"
+      },
+      "update": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/603266db-676c-4879-af20-7fac64bf2abc"
+      }
+    },
+    "id": "603266db-676c-4879-af20-7fac64bf2abc",
+    "isbn": "231212",
+    "publicationDate": "2020-12-14T15:07:36.02Z",
+    "publisher": "Appergine",
+    "title": "Test 2 Edited",
+    "_meta": {
+      "creationDate": "2020-12-16T01:46:22.134Z",
+      "createdBy": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "username": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "roles": ["anonymous"],
+        "editable": false
+      },
+      "draft": { "statusKey": "PUBLISHED", "statusLabel": "Published" }
+    }
+  },
+  {
+    "_links": {
+      "self": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/f452e999-3879-4f72-8ba6-28806412164b"
+      },
+      "delete": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/f452e999-3879-4f72-8ba6-28806412164b"
+      },
+      "update": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/f452e999-3879-4f72-8ba6-28806412164b"
+      }
+    },
+    "id": "f452e999-3879-4f72-8ba6-28806412164b",
+    "isbn": "231212",
+    "publicationDate": "2020-12-14T15:07:36.02Z",
+    "publisher": "Appergine",
+    "title": "Test 2",
+    "_meta": {
+      "creationDate": "2020-12-16T01:49:01.527Z",
+      "createdBy": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "username": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "roles": ["anonymous"],
+        "editable": false
+      },
+      "draft": { "statusKey": "PUBLISHED", "statusLabel": "Published" }
+    }
+  },
+  {
+    "_links": {
+      "self": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/9b41b17b-f3cb-40b0-ba00-112d191a56d1"
+      },
+      "delete": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/9b41b17b-f3cb-40b0-ba00-112d191a56d1"
+      },
+      "update": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/9b41b17b-f3cb-40b0-ba00-112d191a56d1"
+      }
+    },
+    "id": "9b41b17b-f3cb-40b0-ba00-112d191a56d1",
+    "isbn": "231212",
+    "publicationDate": "2020-12-14T15:07:36.02Z",
+    "publisher": "Appergine",
+    "title": "Test 2 Edited",
+    "_meta": {
+      "creationDate": "2020-12-16T01:49:01.753Z",
+      "createdBy": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "username": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "roles": ["anonymous"],
+        "editable": false
+      },
+      "draft": { "statusKey": "PUBLISHED", "statusLabel": "Published" }
+    }
+  },
+  {
+    "_links": {
+      "self": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/d860f7a7-2e52-4299-a904-e142384ca8fd"
+      },
+      "delete": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/d860f7a7-2e52-4299-a904-e142384ca8fd"
+      },
+      "update": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/d860f7a7-2e52-4299-a904-e142384ca8fd"
+      }
+    },
+    "id": "d860f7a7-2e52-4299-a904-e142384ca8fd",
+    "isbn": "231212",
+    "publicationDate": "2020-12-14T15:07:36.02Z",
+    "publisher": "Appergine",
+    "title": "Test 2",
+    "_meta": {
+      "creationDate": "2020-12-16T04:10:48.764Z",
+      "createdBy": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "username": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "roles": ["anonymous"],
+        "editable": false
+      },
+      "draft": { "statusKey": "PUBLISHED", "statusLabel": "Published" }
+    }
+  },
+  {
+    "_links": {
+      "self": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/6ff0d06e-96cc-45b3-b457-73f55d2d1dec"
+      },
+      "delete": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/6ff0d06e-96cc-45b3-b457-73f55d2d1dec"
+      },
+      "update": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/6ff0d06e-96cc-45b3-b457-73f55d2d1dec"
+      }
+    },
+    "id": "6ff0d06e-96cc-45b3-b457-73f55d2d1dec",
+    "isbn": "231212",
+    "publicationDate": "2020-12-14T15:07:36.02Z",
+    "publisher": "Appergine",
+    "title": "Test 2 Edited",
+    "_meta": {
+      "creationDate": "2020-12-16T04:11:01.858Z",
+      "createdBy": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "username": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "roles": ["anonymous"],
+        "editable": false
+      },
+      "draft": { "statusKey": "PUBLISHED", "statusLabel": "Published" }
+    }
+  },
+  {
+    "_links": {
+      "self": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/04c4907c-c266-422a-bf34-1f2132a75a0b"
+      },
+      "delete": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/04c4907c-c266-422a-bf34-1f2132a75a0b"
+      },
+      "update": {
+        "href": "https://catalyst.appergine.com/api/renderer/dataObjects/0bd04997-7b16-4791-a62f-1540282a9d1f/records/04c4907c-c266-422a-bf34-1f2132a75a0b"
+      }
+    },
+    "id": "04c4907c-c266-422a-bf34-1f2132a75a0b",
+    "isbn": "231212",
+    "publicationDate": "2020-12-14T15:07:36.02Z",
+    "publisher": "Appergine",
+    "title": "Test 2",
+    "_meta": {
+      "creationDate": "2020-12-16T05:32:17.16Z",
+      "createdBy": {
+        "id": "anonymous",
+        "name": "Anonymous",
+        "username": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "roles": ["anonymous"],
+        "editable": false
+      },
+      "draft": { "statusKey": "PUBLISHED", "statusLabel": "Published" }
+    }
+  }
+]
