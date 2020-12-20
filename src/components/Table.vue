@@ -3,9 +3,29 @@
 </template>
 
 <script>
+// console.log('this works?');
+
 export default {
-  created() {
-    console.log(this.items)  //undefined;
+  mounted() {
+    const formatDate = (date) => {
+      const d = new Date(date);
+      const YY = d.getFullYear();
+      const MM = d.getMonth();
+      const DD = d.getDay();
+
+      return `${MM}/${DD}/${YY}`;
+    };
+
+    const booksInfo = (array) => {
+      const ar = array;
+      const result = ar.map((obj) => {
+        obj.publicationDate = formatDate(obj.publicationDate);
+        return obj;
+      });
+      return result;
+    };
+
+    booksInfo(this.records);
   },
   props: {
     records: Array,
@@ -14,11 +34,10 @@ export default {
     return {
       fields: ["title", "publisher", "publicationDate", "isbn", "id"],
       items: this.records,
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
+<style scoped></style>
