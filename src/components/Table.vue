@@ -7,19 +7,10 @@
 
 export default {
   mounted() {
-    const formatDate = (date) => {
-      const d = new Date(date);
-      const YY = d.getFullYear();
-      const MM = d.getMonth();
-      const DD = d.getDay();
-
-      return `${MM}/${DD}/${YY}`;
-    };
-
     const booksInfo = (array) => {
       const ar = array;
       const result = ar.map((obj) => {
-        obj.publicationDate = formatDate(obj.publicationDate);
+        obj.publicationDate = new Date(obj.publicationDate).toDateString();
         return obj;
       });
       return result;
