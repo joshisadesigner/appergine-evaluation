@@ -11,19 +11,30 @@
 </template>
 
 <script>
-import Table from './components/Table';
-import recordsData from './mook/records.json'
+import Table from "./components/Table";
+import recordsData from "./mook/records.json";
 
 export default {
-  name: 'App',
+  name: "App",
+  components: { Table },
   data() {
     return {
       records: recordsData,
-    }
+    };
   },
-  components: { Table },
-}
+  mounted() {
+    const booksInfo = (array) => {
+      const ar = array;
+      const result = ar.map((obj) => {
+        obj.publicationDate = new Date(obj.publicationDate).toDateString();
+        return obj;
+      });
+      return result;
+    };
+
+    booksInfo(this.records);
+  },
+};
 </script>
 
-<style>
-</style>
+<style></style>

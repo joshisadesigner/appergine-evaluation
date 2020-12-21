@@ -6,18 +6,6 @@
 // console.log('this works?');
 
 export default {
-  mounted() {
-    const booksInfo = (array) => {
-      const ar = array;
-      const result = ar.map((obj) => {
-        obj.publicationDate = new Date(obj.publicationDate).toDateString();
-        return obj;
-      });
-      return result;
-    };
-
-    booksInfo(this.records);
-  },
   props: {
     records: Array,
   },
