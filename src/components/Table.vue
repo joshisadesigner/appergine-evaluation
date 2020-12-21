@@ -7,12 +7,12 @@
 
 export default {
   props: {
-    records: Array,
+    tableData: Array,
   },
   data() {
     return {
       fields: ["title", "publisher", "publicationDate", "isbn", "id"],
-      items: this.records,
+      items: this.tableData,
     };
   },
 };

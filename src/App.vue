@@ -3,7 +3,7 @@
     <b-row>
       <b-col>
         <div class="a-table">
-          <Table v-bind:records="records" />
+          <Table v-bind:tableData="records" />
         </div>
       </b-col>
     </b-row>
