@@ -1,5 +1,12 @@
 <template>
-  <b-table hover :items="items" :fields="fields"></b-table>
+  <b-table
+    hover
+    responsive
+    sticky-header
+    :items="items"
+    :fields="fields"
+    :no-border-collapse="noCollapse"
+  ></b-table>
 </template>
 
 <script>
