@@ -8,17 +8,9 @@
     margin-bottom: 0;
   }
 
-  th {
-    border-top: none;
-  }
-
   td,
   th {
     white-space: nowrap;
-  }
-
-  tr {
-    transition: all 0.256s ease-in-out;
   }
 
   tbody:hover tr {

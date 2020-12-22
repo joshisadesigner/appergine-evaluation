@@ -1,3 +1,4 @@
-.table-hover tbody tr:hover {
+.table-hover tbody tr:hover td,
+.table.b-table.table-hover > tbody > tr:hover > .table-b-table-default {
   box-shadow: 0 0.375rem 0 rgba(black, 0.05);
 }
