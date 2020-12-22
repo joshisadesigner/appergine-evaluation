@@ -3,9 +3,9 @@
     hover
     responsive
     sticky-header
+    no-border-collapse
     :items="items"
     :fields="fields"
-    :no-border-collapse="noCollapse"
   ></b-table>
 </template>
 
@@ -18,7 +18,17 @@ export default {
   },
   data() {
     return {
-      fields: ["title", "publisher", "publicationDate", "isbn", "id"],
+      fields: [
+        {
+          key: "title",
+          stickyColumn: true,
+          isRowHeader: true,
+        },
+        "publisher",
+        "publicationDate",
+        "isbn",
+        "id",
+      ],
       items: this.tableData,
     };
   },
